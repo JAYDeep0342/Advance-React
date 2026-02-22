@@ -16,6 +16,9 @@ function App() {
     <button onClick= { ( )=>setColor("gray")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-gray-600'> Gray</button>
     <button  onClick= { ( )=>setColor("pink")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-pink-600'> Pink</button>
     <button onClick= { ( )=>setColor("yellow")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-yellow-600'> Yellow</button>
+    <button onClick= { ( )=>setColor("purple")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-purple-600'> Purple</button>
+    <button onClick= { ( )=>setColor("orange")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-orange-600'> Orange</button>
+    <button onClick= { ( )=>setColor("Black")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg bg-purple-600'> Black</button>
 
   </div>
   
@@ -25,5 +28,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
